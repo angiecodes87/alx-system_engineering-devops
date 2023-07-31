@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# This script will run indefinitely and do not stop the
-# "4-to_infinity_and_beyond" process.
+# This script will use the command "kill" to kill the program.
 
-while true; do
-    sleep 1
-done
-
+kill "$(ps -x | pgrep -f beyond)"
