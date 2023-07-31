@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script will run indefinitely and do not stop the
+# "4-to_infinity_and_beyond" process.
+
+while true; do
+    sleep 1
+done
+
